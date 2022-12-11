@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background: #eee;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #222;
+  font-size: 14px;
+  line-height: 26px;
+  padding-bottom: 50px;
+}
+
+.Avatar {
+  max-width: 35%;
+  height: auto;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  padding: 5px;
+  float: right;
+  margin-left: 20px;
+}
+
+.container {
+  max-width: 700px;
+  background: #fff;
+  margin: 0px auto 0px;
+  box-shadow: 1px 1px 2px #dad7d7;
+  border-radius: 3px;
+  padding: 40px;
+  margin-top: 50px;
+}
+
+.phone,
+.email {
+  color: #999;
+  font-weight: 300;
+}
+
+.contacts {
+  margin-bottom: 20px;
+}
+
+.separator {
+  height: 10px;
+  display: inline-block;
+  border-left: 2px solid #999;
+  margin: 0px 10px;
+}
+
+.position {
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 10px;
+  text-decoration: underline;
+}
+
+.full-name {
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.header {
+  margin-bottom: 30px;
+}
+.section {
+  margin-bottom: 40px;
+}
+
+.section__title {
+  letter-spacing: 2px;
+  color: #54afe4;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.section__list-item {
+  margin-bottom: 40px;
+}
+.details {
+  line-height: 20px;
+}
+
+.left,
+.right {
+  vertical-align: top;
+  display: inline-block;
+}
+
+.left {
+  width: 60%;
+}
+
+.right {
+  text-align: right;
+  width: 39%;
+}
+
+.name {
+  font-weight: bold;
+}
