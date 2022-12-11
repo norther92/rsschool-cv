@@ -1,1 +1,1 @@
-https://norther92.github.io/rsschool-cv/cv
+https://norther92.github.io/rsschool-cv/
